@@ -33,7 +33,7 @@
 				class="flex flex-row gap-12"
 			>
 				<input
-					class="py-6 px-4 bg-gray-200 rounded-lg text-2xl focus:outline-none flex-1 placeholder:text-4xl"
+					class="py-6 px-4 bg-gray-200 rounded-lg text-2xl focus:outline-none flex-1 md:placeholder:text-4xl"
 					type="number"
 					step="1"
 					required
@@ -41,7 +41,7 @@
 					placeholder="Enter purchased amount?"
 				/>
 				<input
-					class="py-6 px-4 bg-gray-300 text-2xl rounded-lg focus:outline-none flex-1 placeholder:text-4xl"
+					class="py-6 px-4 bg-gray-300 text-2xl rounded-lg focus:outline-none flex-1 md:placeholder:text-4xl"
 					placeholder="Enter your current km"
 					type="number"
 					required
@@ -276,6 +276,8 @@
 </script>
 
 <style scoped>
+
+
 	.fade-enter-active,
 	.fade-leave-active {
 		transition: opacity 1s ease;
